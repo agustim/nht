@@ -12,7 +12,13 @@ npm run dev
 
 Per desplegar el projecte utilitzarem:
 
-1. Next.js en mode estàtic a pages
-2. /api/ el hono com a worker
+1. Next.js en mode estàtic a Pages
+2. /api/ el hono com a Workers
 
-1.1. 
+
+### Pages:
+1. Crear a Cloudflare UI el pages connectat al git (si volem).
+2. En el projecte, anem a la pestanya Custom domains.
+
+### Workers:
+3. Editem ```wrangler.toml```
