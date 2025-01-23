@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchMessage = async () => {
-      const response = await client.hello.query('Test')
+      const response = await client.hello.query('World')
       setMessage(response)
     }
     fetchMessage()

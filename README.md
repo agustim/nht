@@ -22,4 +22,5 @@ Per desplegar el projecte utilitzarem:
 
 ### Workers:
 3. Editem ```wrangler.toml``` posant my.domain.tld el domini que toca.
+4. Deploy worker ```npm run ``` / Possibilitat de deployar amb Actions de Github. 
 
