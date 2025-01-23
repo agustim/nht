@@ -18,7 +18,8 @@ Per desplegar el projecte utilitzarem:
 
 ### Pages:
 1. Crear a Cloudflare UI el pages connectat al git (si volem).
-2. En el projecte, anem a la pestanya Custom domains.
+2. En el projecte, anem a la pestanya Custom domains, i afegim el domini.
 
 ### Workers:
-3. Editem ```wrangler.toml```
+3. Editem ```wrangler.toml``` posant my.domain.tld el domini que toca.
+
