@@ -7,9 +7,7 @@
     "deploy-worker": "wrangler deploy"
   },
   "dependencies": {
-    "@hono/trpc-server": "^0.3.4",
-    "@trpc/client": "^10.45.2",
-    "@trpc/server": "^10.45.2",
+    "@hono/zod-validator": "^0.4.2",
     "hono": "^4.6.17",
     "next": "^14.2.3",
     "react": "^18.0.0",
