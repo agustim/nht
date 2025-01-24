@@ -1,15 +1,3 @@
-import { Hono } from 'hono'
-import { trpcServer } from '@hono/trpc-server' 
-import { appRouter } from "~/approute"
+import { route } from '../app/trpc/approute'
 
-
-const app = new Hono().basePath('/api')
-
-app.use(
-  '*',
-  trpcServer({
-    router: appRouter,
-  })
-)
-
-export default app
+export default route
